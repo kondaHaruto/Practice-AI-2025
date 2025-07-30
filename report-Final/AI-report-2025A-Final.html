@@ -1,0 +1,222 @@
+<!DOCTYPE html><html><head>
+      <title>AI-report-2025A-Final</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/a/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.18/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="ai実習課題レポート-2025a">AI実習課題レポート 2025A </h1>
+<h2 id="第1回-第3回">[第1回～第3回] </h2>
+<ul>
+<li><strong>課題期間</strong>：   2025/7/10,17,24(木)</li>
+<li><strong>課題提出期限</strong>：　2025/7/31(木) 9:00</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">クラス</th>
+<th style="text-align:center">学籍番号</th>
+<th style="text-align:center">氏    名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">20123021</td>
+<td style="text-align:center">近田暖人</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<hr>
+<p>以下の部分を、提出用フォーマットとして活用すること</p>
+<hr>
+<h3 id="第13回グループ課題の要約整理">第13回グループ課題の要約・整理 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>ルビースカーレット</strong></td>
+<td>吉田 睦希　矢島 美優　伊藤 瑠晟</td>
+<td>アニメとドラマのオントロジーを作成、巻数、和数が少ない順にならべられるようにしていた。Vtuber事務所に所属しているメンバーの情報を誕生日順に並び替えをしていた。福田雄一監督作品を映画とドラマをわけて出力して、キャストの多い順に並べていた。</td>
+<td>アニメやドラマのオントロジーで、巻数や和数の順に並べ替えられていて、使いやすそうだと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>オブシディアンジェット</strong></td>
+<td>塩澤 泰一　河南 慈音</td>
+<td>特定のゲームの出力を行っていて、最終的にスーパーマリオオデッセイという出力結果を出すことができていた。他のゲームでも絞り込めないか試したが、ファイナルファンタジーでは出力できなかった。新潟県の発祥の漫画を調べることを試していた。AIやGoogle検索ではわからなかったことが、スパークルを使うことで新しい発見をすることができた。</td>
+<td>スーパーマリオオデッセイを出力できて、特定のゲームに絞って調べられるのは便利だと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>パールアイボリー</strong></td>
+<td>古賀 真之介　横木 海翔 安宅 心</td>
+<td>アインシュタインという人物のデータからどのようなプロパティについていてどのようなクラスとして持たれているのかを調べていた。検索時にデータの方にはひも付いていることまで理解しなくてはならないというところがあるかなと思っていて、逆にプロパティからしっかり使うことができるというところが楽で使いやすかった。バイオハザードというゲームの中のゲームの出演者が最も多い作品の中で最も武器の数を扱うゲームのタイトルっていうものを出そうとしていた。最初は出てきたが、実際にその武器の方を分割して検索かけた時に、そのITっていう武器のIDが間違ってるっていうので、実際にタイムアウトが起きて表示されなかった。サインリサーチに飛ばしてそこの技術標準と合わせてそこの研究論文を一緒に出すというようなものを目的として考えていた。カプコンの会社から出ているゲームで、2010年以降に発売されたゲームを調べていた。</td>
+<td>技術標準や研究論文との連携を考えているのが良いなと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><strong>ラピスラズリインディゴ</strong></td>
+<td>小林 響　冨樫 大和 近田 暖人　紺野 唯</td>
+<td>ノーベル賞の各賞での最年少受賞者​を探す出力、競走馬の検索で1950年以降に生まれた馬を検索、アニメ、マリオゲームの検索を行った。wikidata Query Serviceを利用する場合実行時間が長すぎるとデータを取得することができないので、  実行時間を短くする工夫が必要だった。サブクエリを使用することで、より的確に求めるデータを抽出できることを改めて実感したと同時にそのデータが正しいか確認したほうがいいと感じました。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center">****</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="第14回グループ課題の要約整理">第14回グループ課題の要約・整理 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>オブシディアンジェット</strong></td>
+<td>長尾 優真　河南 慈音</td>
+<td>ゲームをやる人に向けて、PCのキーボードやマウス、オーディオデバイスといった周辺機器を検索することができるものを作ろうと考えていた。デバイスの特徴であったり、それがどういう特徴を持つのかを追加していく予定。様々な家電と、その色だったり、ユーザーの特性や機能についてクラスを作って、プロパティは持っている色とか持っている機能などについて作成していた。</td>
+<td>家電の色や機能をクラス・プロパティに入れる考えはもわかりやすいと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>パールアイボリー</strong></td>
+<td>古賀 真之介</td>
+<td>情報家電には高い課税などの問題があり、ペルソナは新規の人と既に持っている人に分かれます。新規の人は情報家電に関心があり、既存の人は保証や詳しい機能について知りたがる傾向があります。スペックや専門キーワードを使う詳しいユーザーもいれば、テレビでネットフリックスを見たいなどあいまいな要望もあるため、推論で対応する必要があると言っていた。</td>
+<td>推論であいまいな要望に対応しようとしているのは良いと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>シトリンアンバー</strong></td>
+<td>横木 海翔</td>
+<td>テレビについてのオントロジーを作成。ユースケースにあった4k対応やネットフリックスが見れるかなど欲しいテレビを探し出す。実際にテレビの中にあるパナソニックやソニーなどの会社から出ているのを表示してインスタンスで細かく出していた。</td>
+<td>メーカーやサービス情報を細かくインスタンス化している点も使いやすそうだと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>ルビースカーレット</strong></td>
+<td>五味 帆翔　吉田 睦希　矢島 美優　伊藤 瑠晟</td>
+<td>スマホのオントロジー、スマホを新しく買う人や買い換える人。ユーザの要望を聞いて推論を出すようにした。osやメーカーを設定したりデータプロパティとしてバッテリーの容量や重さも書いていた。イヤホンのオントロジー、例としてソニーのイヤホンでノイズキャンセルがあるイヤホンを検索した。エアコンのオントロジー、エアコンのシリーズやどんな機能を持っているか、何畳用かなどを考えていた。</td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td style="text-align:center"><strong>ラピスラズリインディゴ</strong></td>
+<td>小林 響　冨樫 大和 近田 暖人　紺野 唯</td>
+<td>スマートフォン、スマートウォッチ、マウス、エアコンをそれぞれテーマにした。まずユースケースを考えたあと、それにあった商品を見つけるオントロジーを途中まで作成した。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="第15回グループ課題の要約整理">第15回グループ課題の要約・整理 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">回数</th>
+<th style="text-align:center">グループ名</th>
+<th>発表者</th>
+<th>発表内容</th>
+<th>発表への質疑・コメント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>シトリンアンバー</strong></td>
+<td>横木 海翔　高張 多聞</td>
+<td>前回のを基に作成。テレビのスペックや対応している企業、使われているネットのサービスをインスタンス化してオブジェクトプロパティとデータプロパティを使って繋げてユースケースの人が欲しいのを取り出すことをしていた。モデルの名前とスクリーンサイズ、リレーションの企業、製造年を出した。そこからその人が欲しい55インチのもので4k対応している、パナソニックで2022年に出ているのはなにかを表示していた。</td>
+<td>テレビのスペックやメーカー、ネットサービスをつなげて、ユーザーが欲しい製品を絞り込めるようになっているのは良かったと思います。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>ルビースカーレット</strong></td>
+<td>五味 帆翔　吉田 睦希　矢島 美優</td>
+<td>iPhoneのオントロジー、、ディスプレイサイズや重さ、バッテリー容量、値段が入れたプロパティになっていて、クエリー絞り込みをして、黒色でサイズが6.7インチ以上のものを絞り込みしていて結果通りちゃんと並び替えができていた。イヤホンのオントロジー、イヤホンの種類とイヤホンの色の種類を見たいという例をニーズとして挙げていた。エアコンのオントロジー、各々エアコンの個々のやつを全部、これはワンルーム用でいいなど分けて調整していた。さらに計測絞ってやっていて、ワンルームで値段が15万円以下のエアコンを出力していた。</td>
+<td>iPhoneの詳細な絞り込みやイヤホンの色や種類分けができていて使いやすそうだと思ったのと、エアコンの畳数や価格での検索も実用的でよかったです。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>オブシディアンジェット</strong></td>
+<td>長尾 優真　河南 慈音</td>
+<td>家電の標準化をしてくれるモデルみたいなものがあったのでそれをインポートして利用していた。データプロパティで値段とか、冷房時の運転している時の音や部屋のサイズ、消費電力が1年の電気代の目安みたいな、そういうものが新しく追加していた。例として8万円以下で暖房時の騒音の量が60dB以下のエアコンを探すクエリを作成した。ゲーム名だったり無線マウスなどを検索に含めることでおすすめのデバイスを絞り込んで、絞り込んだデバイスの出力を出すことができるようにしていた。</td>
+<td>条件を指定してエアコンを検索できるのも便利だと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>パールアイボリー</strong></td>
+<td>古賀 真之介</td>
+<td>冷蔵庫と電子レンジとテレビ、それぞれ作って、それを1つにまとめていた。製品の仕様や特徴、ユーザーレビューやランキングの順位とかデザイン評価、必須として重量やサイズ、メーカーを追加していた。例えば15万円以内で消防機能付きの洗濯機や冷蔵庫、電子レンジのセットを検索するクエリを実行し、テレビ番組で紹介された家電などの情報も含めて欲しい情報を横断的に調査・比較できるようにしていた。</td>
+<td>ユーザーレビューやランキングを含めて比較できる点は便利だと思いました。</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><strong>ラピスラズリインディゴ</strong></td>
+<td>小林 響　冨樫 大和 近田 暖人　紺野 唯</td>
+<td>前回に引き続きスマートフォン、スマートウォッチ、マウス、エアコンのオントロジーの作成を行った。それぞれが実際にスパークル文を書いて、実行結果を出力することができた。</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="自己成長-成果-上位成績に向けて-個人成果の報告">[自己成長、成果、上位成績に向けて]　個人成果の報告 </h3>
+<h2 id="注意事項">注意事項 </h2>
+<ul>
+<li>直近3回分の個人演習と毎回のグループ課題の実施結果について、</li>
+<li>学生ごとの個人のレポートとする</li>
+<li>他の学生のレポートをコピー＆ペーストしたことが発覚した場合、<strong>不正行為とみなし 、規程に基づく懲罰適用の可能性があるので絶対にやってはいけない</strong></li>
+</ul>
+<h3 id="参考文献-url">参考文献、URL </h3>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
