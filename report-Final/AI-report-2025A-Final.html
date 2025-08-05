@@ -25,10 +25,10 @@
       <div class="crossnote markdown-preview  ">
       
 <h1 id="ai実習課題レポート-2025a">AI実習課題レポート 2025A </h1>
-<h2 id="第1回-第3回">[第1回～第3回] </h2>
+<h2 id="第13回-第15回">[第13回～第15回] </h2>
 <ul>
 <li><strong>課題期間</strong>：   2025/7/10,17,24(木)</li>
-<li><strong>課題提出期限</strong>：　2025/7/31(木) 9:00</li>
+<li><strong>課題提出期限</strong>：　2025/8/6(水) 12:00</li>
 </ul>
 <table>
 <thead>
@@ -200,14 +200,260 @@
 </tbody>
 </table>
 <hr>
-<h3 id="自己成長-成果-上位成績に向けて-個人成果の報告">[自己成長、成果、上位成績に向けて]　個人成果の報告 </h3>
-<h2 id="注意事項">注意事項 </h2>
+<h1 id="ai実習2025-最終課題レポート">AI実習2025　最終課題レポート </h1>
+<h2 id="最終課題">最終課題 </h2>
 <ul>
-<li>直近3回分の個人演習と毎回のグループ課題の実施結果について、</li>
-<li>学生ごとの個人のレポートとする</li>
-<li>他の学生のレポートをコピー＆ペーストしたことが発覚した場合、<strong>不正行為とみなし 、規程に基づく懲罰適用の可能性があるので絶対にやってはいけない</strong></li>
+<li>
+<p><strong>課題期間</strong>：   2025/7/23(水)</p>
+</li>
+<li>
+<p><strong>課題提出期限</strong>：　2025/8/6(水) 12:00</p>
+</li>
+<li>
+<p>ファイル名は、<strong><a href="http://AI-report-2025A-Final.md">AI-report-2025A-Final.md</a></strong>（すべて半角英数記号）として、</p>
+</li>
+<li>
+<p>Githubプライベートリポジトリ（<strong>Practice-AI-2025</strong>）の所定のフォルダ(<strong>report-Final</strong>)にpush,commitすること</p>
+</li>
+<li>
+<p>(ファイル名にマルチバイト日本語を入れてGithubにFileUploadが失敗するケースがあるため)</p>
+</li>
 </ul>
-<h3 id="参考文献-url">参考文献、URL </h3>
+<h2 id="いつものグループ討議要約と個人ワーク-第13回-第15回-も同様に">いつものグループ討議要約と個人ワーク　[第13回～第15回]　も同様に </h2>
+<hr>
+<h2 id="最終課題-1">最終課題 </h2>
+<ul>
+<li>
+<p>第14、15回「情報家電」オントロジの実習を参考に、<strong>最終自作オントロジの作成と活用評価を報告</strong></p>
+</li>
+<li>
+<p>必要な要件：</p>
+</li>
+<li>
+<p>顧客ニーズの記述： 顧客のどのようなニーズ・需要に応えるソリューションか？　ユースケースを具体的に描くこと</p>
+</li>
+<li>
+<p>技術シーズの記述： ニーズに対し、付加価値のある技術要素、手段を具体化すること</p>
+</li>
+<li>
+<p>上記ニーズとシーズを結びつける、付加価値をもったオントロジを設計・実装すること</p>
+</li>
+<li>
+<p>既存オントロジとの連携＋自作オントロジならではの付加価値データを明記すること</p>
+</li>
+<li>
+<p>顧客ニーズに応える具体的なSparqlクエリを複数例示すること</p>
+</li>
+<li>
+<p>オプション：　Protegeを使う以外に、Python等からSparqlクエリを実行する形式も十分あり得る</p>
+</li>
+<li>
+<p>加点要素：　破壊的イノベーションの観点で、顧客ニーズに対して、技術シーズがどの辺のポジショニングかを説明すること</p>
+</li>
+<li>
+<p>加点要素：　機械学習、深層機械学習、生成AIとの連携を講じること</p>
+</li>
+</ul>
+<h2 id="最終課題の記載事項">最終課題の記載事項 </h2>
+<h3 id="作成したオントロジ名対象とした新製品新商品名-エアコン検索オントロジー">作成したオントロジ名：対象とした新製品・新商品名　エアコン検索オントロジー </h3>
+<h3 id="想定した顧客からの具体的質問-ユースケース事例">想定した顧客からの具体的質問、ユースケース事例 </h3>
+<p>一人暮らしを始める大学生。初期費用を抑えたいので5万円以下のエアコンを探しています。また、夜間に勉強しながらエアコンをつけるので、静かでストレスの少ないモデルを探している。その人から、「予算は5万円以下だけど、音が静かで使いやすいエアコンはありますか？」と質問をされました。全てのエアコンから調べるのは時間がかかる。そのため、Sparql文で各メーカーのモデルから価格が5万円以下で音の大きさが40dB未満のエアコンに絞って検索を行いました。その条件に合ったエアコンが表示されるので、そこから書いたいエアコンを選ぶことができます。</p>
+<h3 id="protegeを用いたオントロジの図式">Protegeを用いたオントロジの図式 </h3>
+<ul>
+<li>
+<p><strong>protégé</strong>にて作成された、オントロジファイル (.owl) 形式の成果物<br>
+<a href="AI%E6%9C%80%E7%B5%82%E8%AA%B2%E9%A1%8C_20123021_%E8%BF%91%E7%94%B0%E6%9A%96%E4%BA%BA.owl">AI最終課題_20123021_近田暖人.owl</a></p>
+</li>
+<li>
+<p>画面スナップショット (.jpg, .png)</p>
+</li>
+</ul>
+<h2 id="画面スナップショット">画面スナップショット </h2>
+<p><img src="screenshot1.png" alt="Protegeのクラス階層画面"></p>
+<p><img src="screenshot2.png" alt=""></p>
+<p><img src="screenshot3.png" alt="オブジェクトプロパティ階層"></p>
+<p><img src="screenshot4.png" alt="データプロパティ階層"></p>
+<h3 id="sparqlの実施例とその結果">Sparqlの実施例とその結果 </h3>
+<pre data-role="codeBlock" data-info="sql" class="language-sql sql"><code>PREFIX coode: <span class="token operator">&lt;</span>http:<span class="token comment">//www.co-ode.org/ontologies/ont.owl#&gt;</span>
+PREFIX aircon: <span class="token operator">&lt;</span>http:<span class="token comment">//example.org/aircon#&gt;</span>
+PREFIX rdf: <span class="token operator">&lt;</span>http:<span class="token comment">//www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span>
+
+<span class="token keyword keyword-SELECT">SELECT</span> ?maker ?model ?price ?noiseLevel <span class="token keyword keyword-WHERE">WHERE</span> {
+  ?model rdf:<span class="token keyword keyword-type">type</span> aircon:エアコン <span class="token punctuation">.</span>
+  ?model aircon:hasMaker ?maker <span class="token punctuation">.</span>
+  ?model coode:hasPrice ?price <span class="token punctuation">.</span>
+  ?model aircon:hasNoiseLevel ?noiseLevel <span class="token punctuation">.</span>
+
+  FILTER<span class="token punctuation">(</span>?price <span class="token operator">&lt;=</span> <span class="token number">50000</span><span class="token punctuation">)</span>
+
+  <span class="token comment"># メーカーごとの最小騒音レベルを取得</span>
+  {
+    <span class="token keyword keyword-SELECT">SELECT</span> ?maker <span class="token punctuation">(</span><span class="token function">MIN</span><span class="token punctuation">(</span>?noise<span class="token punctuation">)</span> <span class="token keyword keyword-AS">AS</span> ?minNoise<span class="token punctuation">)</span> <span class="token keyword keyword-WHERE">WHERE</span> {
+      ?m rdf:<span class="token keyword keyword-type">type</span> aircon:エアコン <span class="token punctuation">.</span>
+      ?m aircon:hasMaker ?maker <span class="token punctuation">.</span>
+      ?m coode:hasPrice ?p <span class="token punctuation">.</span>
+      ?m aircon:hasNoiseLevel ?noise <span class="token punctuation">.</span>
+      FILTER<span class="token punctuation">(</span>?p <span class="token operator">&lt;=</span> <span class="token number">50000</span><span class="token punctuation">)</span>
+    }
+    <span class="token keyword keyword-GROUP">GROUP</span> <span class="token keyword keyword-BY">BY</span> ?maker
+  }
+
+  FILTER<span class="token punctuation">(</span>?noiseLevel <span class="token operator">=</span> ?minNoise<span class="token punctuation">)</span>
+}
+<span class="token keyword keyword-ORDER">ORDER</span> <span class="token keyword keyword-BY">BY</span> ?maker
+
+<span class="token comment">## SPARQLクエリ実行結果の例</span>
+
+
+  実施例、結果
+  <span class="token comment">## SPARQLクエリ実行結果の例</span>
+
+</code></pre><h2 id="sparqlクエリ実行結果の例">SPARQLクエリ実行結果の例 </h2>
+<p><img src="screenshot5.png" alt="SPARQLクエリ実行結果"></p>
+<h3 id="作成したオントロジ規模を定量的に示す">作成したオントロジ規模を定量的に示す </h3>
+<ul>
+<li>設計したクラスの数</li>
+<li>設計したインスタンスの数</li>
+<li>設計したプロパティの数</li>
+<li>.owlファイルの行数 (XMLファイルの行数をwcでカウント、テキストエディタで確認)</li>
+<li>Sparqlのクエリ数　（クエリ実行のパターン数）</li>
+<li>トータルのSparql行数</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>定量パラメタ</th>
+<th>数値</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>クラス数</td>
+<td>23</td>
+</tr>
+<tr>
+<td>インスタンス数</td>
+<td>112</td>
+</tr>
+<tr>
+<td>プロパティ数</td>
+<td>9</td>
+</tr>
+<tr>
+<td>.owl行数</td>
+<td>1031</td>
+</tr>
+<tr>
+<td>Sparqlクエリ数</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Sparql行数</td>
+<td>240</td>
+</tr>
+</tbody>
+</table>
+<h3 id="必須分析評価考察">必須：分析・評価・考察 </h3>
+<p>下記の観点で、最終課題について論じる：</p>
+<ul>
+<li>
+<p>なぜこのテーマを選定したか？選定理由　<br>
+一人暮らしの大学生をはじめとする若年層や初期費用を抑えたいユーザにとって、生活必需品であるエアコンのどれを買えばいいのか迷い難しいことに着目したためである。特に、静音性や価格など、多様なニーズを持つユーザに最適な製品を提供するための支援が求められていると思ったからです。</p>
+</li>
+<li>
+<p>ユーザへの寄与・貢献、ユーザにどのように活用してほしいか<br>
+利用者が自分の生活環境や予算に応じて適切なエアコンを選べるよう支援するために設計しました。例えば、「一人暮らしの大学生」「初期費用を抑えたい」「静音性重視」といったユーザに応じて製品を簡単に絞り込むことが可能です。ユーザは本オントロジーを活用することで、膨大な製品情報から最適な候補を見つけ出し、購入判断をサポートできることです。</p>
+</li>
+<li>
+<p>深く専門的な知識の所在<br>
+エアコンを分類するために、専門的な知識を使っています。<br>
+たとえば、省エネや静かさ、設置場所、部屋の広さ、保証期間などを基に、特徴を作ったので、データを正しく整理できて、役立つ情報として使いやすくなっています。</p>
+</li>
+<li>
+<p>オントロジ設計のポリシ<br>
+設計ポリシーは「ユーザ中心の実用性」と「拡張性の確保」に重点を置いた。利用者が求める条件で簡潔に検索可能な構造を優先しつつも、新たな製品情報や機能拡張があっても容易に追加できるように工夫しました。</p>
+</li>
+<li>
+<p>差異化要素、強みと特徴点<br>
+本オントロジーの強みは、複数のユーザ属性（生活スタイル、価格重視、静音志向）に対応した柔軟なクエリによる製品の推薦ができる点でと、ユーザニーズを直接反映した多様な設計と、それらの組み合わせ検索を可能にしていることです。</p>
+</li>
+<li>
+<p>共通語彙、プロパティの使い方で発見した知見<br>
+共通語彙（例えば coode:hasPrice や aircon:hasMaker）を統一して使うことで、違う製品でも比べたり探したりしやすくなることが分かった。また、価格や消費電力、騒音レベルなどのデータの情報と、設置タイプやメーカー、機能などの関係の情報を分けて使うことで、クエリが分かりやすくなり、処理もスムーズになることが分かりました。</p>
+</li>
+<li>
+<p>クラスとインスタンスの違いで発見した知見<br>
+本オントロジーにおいて、クラスは製品のカテゴリや属性の種類を示し、インスタンスは具体的な製品モデルを表現していることが明確である。たとえば、「エアコン」「設置タイプ」「メーカー」といったクラスが分類軸として機能し、それに属する個別製品がインスタンスとして登録されています。</p>
+</li>
+<li>
+<p>創意工夫のポイント<br>
+ユーザの多様なニーズに応じて複数条件を組み合わせた柔軟なSPARQLクエリを想定し、それに対応可能なプロパティ設計を優先しました。</p>
+</li>
+<li>
+<p>オントロジエディタの使い方で習得した技法<br>
+Protégéを用い、クラス階層の作成、データプロパティとオブジェクトプロパティの設定、個別インスタンスの生成、さらにSPARQLクエリ実行機能を通じて、オントロジ設計と検証を繰り返す技術を習得することができたと感じました。</p>
+</li>
+<li>
+<p>作業を通じて得られた知見<br>
+データの属性をうまく表現することと、ユーザーが使いやすく検索できることの両方が大事だと感じました。特に、共通の言葉を使うことやデータの種類を整えること、検索条件を組み合わせて表すことがオントロジーを便利にするポイントだと思いました。</p>
+</li>
+</ul>
+<h3 id="評価の観点">評価の観点 </h3>
+<ul>
+<li>独創性と丁寧な設計</li>
+<li>差異化性（既存と異なる付加価値）</li>
+<li>深さ（表面的でなく、知識に深みがある）</li>
+<li>設計思想　（どのような思いでデザインしたか）</li>
+<li>見通しの良さ、設計のわかりやすさ</li>
+<li>is-a, has-a, 主語・述語・目的語の簡明さ</li>
+<li>共通語彙の活用度</li>
+<li>Sparqlの量・質・複雑さ・多様さ</li>
+</ul>
+<hr>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">クラス</th>
+<th style="text-align:center">学籍番号</th>
+<th style="text-align:center">氏    名</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:center">20123021</td>
+<td style="text-align:center">近田暖人</td>
+</tr>
+</tbody>
+</table>
+<h3 id="外部ツール画面の図式引用">外部ツール画面の図式引用 </h3>
+<ul>
+<li>様式中に、マークダウンのコメントとして<br>
+　　<code>&lt;!-- 要 記述　回答 --&gt;</code> と記されている箇所は忘れずに適切な記述を加筆する</li>
+<li>図やスクリーンショットを引用する場合、フォルダにまとめておく</li>
+<li>1つのレポートにつき、1つのフォルダを用意する</li>
+<li>そのフォルダに、md, pdf,html,および, 引用で使用したjpg,png等ファイルをまとめて配置する</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><msup><mi>R</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">MR^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span>で作成したRDFは、スクリーンショット画像として本文に取り込む</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>r</mi><mi>o</mi><mi>t</mi><mi>e</mi><mi>g</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">Protege</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">ro</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord mathnormal">e</span></span></span></span>で作成したオントロジは、<code>OWL/XML Syntax</code> 形式で、<code>file名.owl</code>　として保存する</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>r</mi><mi>o</mi><mi>t</mi><mi>e</mi><mi>g</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">Protege</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8778em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">ro</span><span class="mord mathnormal">t</span><span class="mord mathnormal">e</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord mathnormal">e</span></span></span></span>で作成したLODは、<code>RDF/XML Syntax</code> 形式で、<code>file名.owl</code>　と保存する</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>p</mi><mi>a</mi><mi>r</mi><mi>q</mi><mi>l</mi></mrow><annotation encoding="application/x-tex">Sparql</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">Sp</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mord mathnormal" style="margin-right:0.01968em;">ql</span></span></span></span>のソースコードは、マークダウン形式に、引用によって記述する</li>
+</ul>
+<pre data-role="codeBlock" data-info="" class="language-text"><code>  　Sparqlのクエリコードを　```sql  と ```　で囲み、クエリの実行結果も　``` ``` で囲む
+</code></pre><h3 id="レポート提出方法-githubのプライベートリポジトリにアップロード">レポート提出方法 Githubのプライベートリポジトリにアップロード </h3>
+<ul>
+<li>2学年4学期の<strong>API実習と同じ方法</strong></li>
+<li>Githubのアカウントを作成し、<strong>Practice-AI-2025</strong> という名称でプライベートリポジトリを作成</li>
+<li>そのプライベートリポジトリに、指導員のGithubアカウント= <strong>keythrive</strong>を招待する</li>
+<li>Githubのプライベートリポジトリに次の名前で、6つフォルダを用意する：
+<ul>
+<li><strong>report01</strong></li>
+<li><strong>report02</strong></li>
+<li><strong>report03</strong></li>
+<li><strong>report04</strong></li>
+<li><strong>report05</strong>相当は、<strong>report-Final</strong>　と混在可能</li>
+</ul>
+</li>
+</ul>
 
       </div>
       
