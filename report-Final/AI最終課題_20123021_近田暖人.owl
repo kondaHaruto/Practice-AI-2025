@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns="http://www.co-ode.org/ontologies/ont.owl#"
+  xmlns:aircon="http://example.org/aircon#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel18">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71011</hasPrice>
+    <aircon:hasSize>高さ935mm×幅941mm×奥行394mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.85</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model25">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44072</hasPrice>
+    <aircon:hasSize>高さ1120mm×幅1052mm×奥行468mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.7</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model28">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66381</hasPrice>
+    <aircon:hasSize>高さ1135mm×幅1061mm×奥行474mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.85</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel8">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">61452</hasPrice>
+    <aircon:hasSize>高さ885mm×幅911mm×奥行374mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.35</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel1">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63581</hasPrice>
+    <aircon:hasSize>高さ700mm×幅800mm×奥行300mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel4">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47764</hasPrice>
+    <aircon:hasSize>高さ865mm×幅899mm×奥行366mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.15</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel12">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79592</hasPrice>
+    <aircon:hasSize>高さ905mm×幅923mm×奥行382mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.55</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel4">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64058</hasPrice>
+    <aircon:hasSize>高さ715mm×幅809mm×奥行306mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.65</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel5">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62361</hasPrice>
+    <aircon:hasSize>高さ870mm×幅902mm×奥行368mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel7">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33786</hasPrice>
+    <aircon:hasSize>高さ880mm×幅908mm×奥行372mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.3</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel30">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">73257</hasPrice>
+    <aircon:hasSize>高さ995mm×幅977mm×奥行418mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.45</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel3">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48458</hasPrice>
+    <aircon:hasSize>高さ860mm×幅896mm×奥行364mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel18">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30384</hasPrice>
+    <aircon:hasSize>高さ785mm×幅851mm×奥行334mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.35</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel17">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31617</hasPrice>
+    <aircon:hasSize>高さ930mm×幅938mm×奥行392mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.8</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel28">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49199</hasPrice>
+    <aircon:hasSize>高さ835mm×幅881mm×奥行354mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.85</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model9">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57006</hasPrice>
+    <aircon:hasSize>高さ1040mm×幅1004mm×奥行436mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.9</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel26">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66139</hasPrice>
+    <aircon:hasSize>高さ975mm×幅965mm×奥行410mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.25</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel23">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63284</hasPrice>
+    <aircon:hasSize>高さ960mm×幅956mm×奥行404mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.1</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel14">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71819</hasPrice>
+    <aircon:hasSize>高さ915mm×幅929mm×奥行386mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.65</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel29">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42383</hasPrice>
+    <aircon:hasSize>高さ990mm×幅974mm×奥行416mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.4</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model5">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70206</hasPrice>
+    <aircon:hasSize>高さ1020mm×幅992mm×奥行428mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.7</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model18">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31022</hasPrice>
+    <aircon:hasSize>高さ1085mm×幅1031mm×奥行454mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.35</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <owl:DatatypeProperty rdf:about="http://example.org/aircon#hasSize"/>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel21">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40894</hasPrice>
+    <aircon:hasSize>高さ800mm×幅860mm×奥行340mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model30">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48370</hasPrice>
+    <aircon:hasSize>高さ1145mm×幅1067mm×奥行478mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.95</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model23">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63709</hasPrice>
+    <aircon:hasSize>高さ1110mm×幅1046mm×奥行464mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.6</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel16">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41734</hasPrice>
+    <aircon:hasSize>高さ775mm×幅845mm×奥行330mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.25</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model17">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39661</hasPrice>
+    <aircon:hasSize>高さ1080mm×幅1028mm×奥行452mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.3</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model2">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41272</hasPrice>
+    <aircon:hasSize>高さ1005mm×幅983mm×奥行422mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.55</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel24">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48528</hasPrice>
+    <aircon:hasSize>高さ965mm×幅959mm×奥行406mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.15</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel12">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42657</hasPrice>
+    <aircon:hasSize>高さ755mm×幅833mm×奥行322mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.05</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel2">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59692</hasPrice>
+    <aircon:hasSize>高さ705mm×幅803mm×奥行302mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.55</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model16">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75766</hasPrice>
+    <aircon:hasSize>高さ1075mm×幅1025mm×奥行450mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.25</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model12">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">62679</hasPrice>
+    <aircon:hasSize>高さ1055mm×幅1013mm×奥行442mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.05</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model26">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47728</hasPrice>
+    <aircon:hasSize>高さ1125mm×幅1055mm×奥行470mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.75</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model21">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42032</hasPrice>
+    <aircon:hasSize>高さ1100mm×幅1040mm×奥行460mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.5</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model8">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51465</hasPrice>
+    <aircon:hasSize>高さ1035mm×幅1001mm×奥行434mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.85</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel17">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">74969</hasPrice>
+    <aircon:hasSize>高さ780mm×幅848mm×奥行332mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.3</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model20">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30781</hasPrice>
+    <aircon:hasSize>高さ1095mm×幅1037mm×奥行458mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.45</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel19">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70520</hasPrice>
+    <aircon:hasSize>高さ790mm×幅854mm×奥行336mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.4</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model22">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30747</hasPrice>
+    <aircon:hasSize>高さ1105mm×幅1043mm×奥行462mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.55</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model27">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">44189</hasPrice>
+    <aircon:hasSize>高さ1130mm×幅1058mm×奥行472mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.8</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel27">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38181</hasPrice>
+    <aircon:hasSize>高さ830mm×幅878mm×奥行352mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.8</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel13">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53260</hasPrice>
+    <aircon:hasSize>高さ760mm×幅836mm×奥行324mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model10">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">64974</hasPrice>
+    <aircon:hasSize>高さ1045mm×幅1007mm×奥行438mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.95</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel27">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41445</hasPrice>
+    <aircon:hasSize>高さ980mm×幅968mm×奥行412mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.3</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel30">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">67845</hasPrice>
+    <aircon:hasSize>高さ845mm×幅887mm×奥行358mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.95</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel25">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65804</hasPrice>
+    <aircon:hasSize>高さ820mm×幅872mm×奥行348mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.7</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel20">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37452</hasPrice>
+    <aircon:hasSize>高さ795mm×幅857mm×奥行338mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.45</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel20">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52831</hasPrice>
+    <aircon:hasSize>高さ945mm×幅947mm×奥行398mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.95</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel6">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65767</hasPrice>
+    <aircon:hasSize>高さ725mm×幅815mm×奥行310mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.75</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel15">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37727</hasPrice>
+    <aircon:hasSize>高さ920mm×幅932mm×奥行388mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.7</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model24">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45961</hasPrice>
+    <aircon:hasSize>高さ1115mm×幅1049mm×奥行466mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.65</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model3">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47117</hasPrice>
+    <aircon:hasSize>高さ1010mm×幅986mm×奥行424mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.6</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model4">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31630</hasPrice>
+    <aircon:hasSize>高さ1015mm×幅989mm×奥行426mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.65</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <owl:DatatypeProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#hasPrice"/>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel1">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">31347</hasPrice>
+    <aircon:hasSize>高さ850mm×幅890mm×奥行360mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel6">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71012</hasPrice>
+    <aircon:hasSize>高さ875mm×幅905mm×奥行370mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.25</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel2">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">76872</hasPrice>
+    <aircon:hasSize>高さ855mm×幅893mm×奥行362mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.05</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel8">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63365</hasPrice>
+    <aircon:hasSize>高さ735mm×幅821mm×奥行314mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.85</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model7">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55027</hasPrice>
+    <aircon:hasSize>高さ1030mm×幅998mm×奥行432mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel25">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">68992</hasPrice>
+    <aircon:hasSize>高さ970mm×幅962mm×奥行408mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.2</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel10">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">49661</hasPrice>
+    <aircon:hasSize>高さ895mm×幅917mm×奥行378mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.45</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel14">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46225</hasPrice>
+    <aircon:hasSize>高さ765mm×幅839mm×奥行326mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.15</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel3">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">69219</hasPrice>
+    <aircon:hasSize>高さ710mm×幅806mm×奥行304mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.6</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel11">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38954</hasPrice>
+    <aircon:hasSize>高さ900mm×幅920mm×奥行380mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.5</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <owl:ObjectProperty rdf:about="http://example.org/aircon#hasNoiseLevel"/>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel24">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51914</hasPrice>
+    <aircon:hasSize>高さ815mm×幅869mm×奥行346mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.65</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel9">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42499</hasPrice>
+    <aircon:hasSize>高さ740mm×幅824mm×奥行316mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.9</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel22">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">56737</hasPrice>
+    <aircon:hasSize>高さ805mm×幅863mm×奥行342mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.55</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model11">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">33325</hasPrice>
+    <aircon:hasSize>高さ1050mm×幅1010mm×奥行440mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel15">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">53492</hasPrice>
+    <aircon:hasSize>高さ770mm×幅842mm×奥行328mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.2</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel21">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75263</hasPrice>
+    <aircon:hasSize>高さ950mm×幅950mm×奥行400mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.0</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel26">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">76551</hasPrice>
+    <aircon:hasSize>高さ825mm×幅875mm×奥行350mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.75</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model13">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75630</hasPrice>
+    <aircon:hasSize>高さ1060mm×幅1016mm×奥行444mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.1</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model29">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">67165</hasPrice>
+    <aircon:hasSize>高さ1140mm×幅1064mm×奥行476mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.9</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel29">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34262</hasPrice>
+    <aircon:hasSize>高さ840mm×幅884mm×奥行356mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.9</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel28">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35723</hasPrice>
+    <aircon:hasSize>高さ985mm×幅971mm×奥行414mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.35</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel16">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">67103</hasPrice>
+    <aircon:hasSize>高さ925mm×幅935mm×奥行390mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.75</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model6">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75132</hasPrice>
+    <aircon:hasSize>高さ1025mm×幅995mm×奥行430mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.75</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel10">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55255</hasPrice>
+    <aircon:hasSize>高さ745mm×幅827mm×奥行318mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.95</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel13">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#空気清浄"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50800</hasPrice>
+    <aircon:hasSize>高さ910mm×幅926mm×奥行384mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.6</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel5">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55978</hasPrice>
+    <aircon:hasSize>高さ720mm×幅812mm×奥行308mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel23">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38915</hasPrice>
+    <aircon:hasSize>高さ810mm×幅866mm×奥行344mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel22">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#省エネルギー"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41313</hasPrice>
+    <aircon:hasSize>高さ955mm×幅953mm×奥行402mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.05</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model1">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71578</hasPrice>
+    <aircon:hasSize>高さ1000mm×幅980mm×奥行420mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.5</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model19">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#天吊型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#静音"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51549</hasPrice>
+    <aircon:hasSize>高さ1090mm×幅1034mm×奥行456mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel9">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40dB未満"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55118</hasPrice>
+    <aircon:hasSize>高さ890mm×幅914mm×奥行376mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.4</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model14">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50004</hasPrice>
+    <aircon:hasSize>高さ1065mm×幅1019mm×奥行446mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.15</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel7">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#床置き型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">73787</hasPrice>
+    <aircon:hasSize>高さ730mm×幅818mm×奥行312mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.8</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#パナソニックModel19">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#パナソニック"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#七〜十畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#自動停止"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#2年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">65617</hasPrice>
+    <aircon:hasSize>高さ940mm×幅944mm×奥行396mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.9</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#ダイキンModel11">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#ダイキン"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#十一畳以上"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#50dB以上"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#ビルトイン型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#無線対応"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#3年以上"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66108</hasPrice>
+    <aircon:hasSize>高さ750mm×幅830mm×奥行320mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.0</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <aircon:エアコン rdf:about="http://example.org/aircon#三菱電機Model15">
+    <aircon:hasMaker rdf:resource="http://example.org/aircon#三菱電機"/>
+    <aircon:hasRoomSize rdf:resource="http://example.org/aircon#五〜七畳"/>
+    <aircon:hasNoiseLevel rdf:resource="http://example.org/aircon#40〜50dB"/>
+    <aircon:hasInstallationType rdf:resource="http://example.org/aircon#壁掛け型"/>
+    <aircon:hasFunction rdf:resource="http://example.org/aircon#直感的操作"/>
+    <aircon:hasWarrantyPeriod rdf:resource="http://example.org/aircon#1年"/>
+    <hasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52421</hasPrice>
+    <aircon:hasSize>高さ1070mm×幅1022mm×奥行448mm</aircon:hasSize>
+    <aircon:hasPowerConsumption rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</aircon:hasPowerConsumption>
+  </aircon:エアコン>
+  <owl:ObjectProperty rdf:about="http://example.org/aircon#hasWarrantyPeriod"/>
+  <owl:ObjectProperty rdf:about="http://example.org/aircon#hasFunction"/>
+  <owl:ObjectProperty rdf:about="http://example.org/aircon#hasRoomSize"/>
+  <owl:ObjectProperty rdf:about="http://example.org/aircon#hasMaker"/>
+  <owl:ObjectProperty rdf:about="http://example.org/aircon#hasInstallationType"/>
+  <owl:Ontology rdf:nodeID="Ncd6580895657477d844301eb3898c383"/>
+  <owl:DatatypeProperty rdf:about="http://example.org/aircon#hasPowerConsumption"/>
+  <owl:Class rdf:about="http://example.org/aircon#2年"/>
+  <owl:Class rdf:about="http://example.org/aircon#七〜十畳"/>
+  <owl:Class rdf:about="http://example.org/aircon#ビルトイン型"/>
+  <owl:Class rdf:about="http://example.org/aircon#十一畳以上"/>
+  <owl:Class rdf:about="http://example.org/aircon#五〜七畳"/>
+  <owl:Class rdf:about="http://example.org/aircon#エアコン"/>
+  <owl:Class rdf:about="http://example.org/aircon#パナソニック"/>
+  <owl:Class rdf:about="http://example.org/aircon#50dB以上"/>
+  <owl:Class rdf:about="http://example.org/aircon#40dB未満"/>
+  <owl:Class rdf:about="http://example.org/aircon#40〜50dB"/>
+  <owl:Class rdf:about="http://example.org/aircon#壁掛け型"/>
+  <owl:Class rdf:about="http://example.org/aircon#無線対応"/>
+  <owl:Class rdf:about="http://example.org/aircon#省エネルギー"/>
+  <owl:Class rdf:about="http://example.org/aircon#ダイキン"/>
+  <owl:Class rdf:about="http://example.org/aircon#直感的操作"/>
+  <owl:Class rdf:about="http://example.org/aircon#自動停止"/>
+  <owl:Class rdf:about="http://example.org/aircon#床置き型"/>
+  <owl:Class rdf:about="http://example.org/aircon#1年"/>
+  <owl:Class rdf:about="http://example.org/aircon#3年以上"/>
+  <owl:Class rdf:about="http://example.org/aircon#静音"/>
+  <owl:Class rdf:about="http://example.org/aircon#天吊型"/>
+  <owl:Class rdf:about="http://example.org/aircon#空気清浄"/>
+  <owl:Class rdf:about="http://example.org/aircon#三菱電機"/>
+</rdf:RDF>
